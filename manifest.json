@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "OKATAKYIRE WALLET",
+  "short_name": "OK Wallet",
+  "description": "Personal offline money tracker: record savings, expenses and goals. Track, Save, Plan, Achieve.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0a3d1f",
+  "theme_color": "#0a3d1f",
+  "lang": "en-GH",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add Savings", "short_name": "Savings", "url": "./?add=savings", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Add Expense", "short_name": "Expense", "url": "./?add=expense", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
